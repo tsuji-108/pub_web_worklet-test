@@ -16,6 +16,7 @@
     "node": "22.21.0"
   },
   "dependencies": {
+    "@breezystack/lamejs": "^1.2.7",
     "water.css": "^2.1.1"
   }
 }
