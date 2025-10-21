@@ -1,14 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>pub_web_worklet-test</title>
-    <script type="module" crossorigin src="/pub_web_worklet-test/assets/index-BlfoUrP-.js"></script>
+    <script type="module" crossorigin src="/pub_web_worklet-test/assets/index-BecjUh3U.js"></script>
     <link rel="stylesheet" crossorigin href="/pub_web_worklet-test/assets/index-BrlXWl5a.css">
   </head>
   <body>
     <div id="app"></div>
-    <h1>Worklet Test Page</h1>
+    <h1>AudioWorklet Test</h1>
+    <section id="voice-input" aria-label="音声入力">
+      <h2>音声入力</h2>
+      <button
+        id="start-record"
+        type="button"
+      >
+        録音開始
+      </button>
+      <button
+        id="stop-record"
+        type="button"
+        disabled
+      >
+        録音停止
+      </button>
+
+      <h3>認識結果</h3>
+      <p id="status"></p>
+      <div>
+        <audio id="audio"></audio>
+      </div>
+    </section>
+
   </body>
 </html>
