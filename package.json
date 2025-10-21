@@ -11,5 +11,11 @@
   "devDependencies": {
     "typescript": "~5.9.3",
     "vite": "^7.1.7"
+  },
+  "volta": {
+    "node": "22.21.0"
+  },
+  "dependencies": {
+    "water.css": "^2.1.1"
   }
 }
